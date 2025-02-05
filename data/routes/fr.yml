@@ -1,0 +1,7 @@
+name: home
+id: home-page
+placeholders:
+  jss-main:
+    - componentName: Homepage
+      fields:
+        heading: Bienvenue sur SitecoreJSS
