@@ -1,3 +1,64 @@
-Documentation: 'La documentation'
-Styleguide: 'Guide de style'
-GraphQL: 'GraphQL'
+########### Header fiels ###########
+header.document-scanners: 'Numériseurs de documents'
+header.solutions: 'Solutions'
+header.services: 'Services'
+header.support: 'Soutien technique'
+header.scansnap: 'ScanSnap'
+header.fi-series: 'Série fi'
+header.fi-series-software: 'Logiciel série fi'
+header.paperstream-ip: 'PaperStream IP'
+header.paperstream-clickscan: 'PaperStream ClickScan'
+header.paperstream-capture: 'PaperStream Capture'
+header.paperstream-capture-pro: 'PaperStream Capture Pro'
+header.paperstream-nx-manager: 'PaperStream NX Manager'
+header.scanner-central-admin: 'Scanner Central Admin'
+header.scansnap-software: 'Logiciel série ScanSnap'
+header.scansnap-home: 'ScanSnap Home'
+header.scansnap-cloud: 'ScanSnap Cloud'
+header.scansnap-connect: 'ScanSnap Connect'
+header.advance-exchange: 'Échange express'
+header.depot: 'Centre de réparation'
+header.on-site-service: 'Service sur site'
+header.warranties-manuals-datasheets: 'Garanties, manuels et fiches techniques'
+header.drivers-software-downloads: 'Téléchargements de pilotes et de logiciels'
+header.replacement-parts: 'Pièces de rechange'
+header.product-registration: 'Enregistrement du produit'
+header.knowledge-base: 'Base de connaissances'
+
+header.region-picker.canada: 'Canada'
+header.region-picker.english-canada: 'English (Canada)'
+header.region-picker.french-canada: 'Français (Canada)'
+header.region-picker.mexico-central-america: 'Mexique, Amérique Centrale, Caraïbes et Amérique du Sud'
+header.region-picker.united-states: 'États-Unis'
+header.region-picker.english: 'English'
+header.region-picker.espanol: 'Español'
+header.region-picker.portugues: 'Português'
+
+########### Footer fiels ###########
+
+footer.all-products: "Tous les produits"
+footer.scansnap: "ScanSnap"
+footer.fi-series: "Série fi"
+footer.software: "Logiciel"
+footer.service-programs: "Programmes de services"
+
+footer.about-us: "À propos de nous"
+footer.contact-us: "Nous contacter"
+
+footer.support: "Soutien technique"
+footer.warranties-manuals-datasheets: "Garanties, manuels et fiches techniques"
+footer.drivers-downloads: "Pilotes et téléchargements"
+footer.consumables: "Consommables"
+footer.product-registration: "Enregistrement du produit"
+footer.discontinued-scanners: "Numériseurs abandonnés"
+
+footer.social: "Social"
+footer.linkedin: "LinkedIn"
+footer.youtube: "YouTube"
+
+footer.accessibility: "Accessibilité"
+footer.terms: "Conditions"
+footer.privacy: "Confidentialité"
+footer.manage-preferences: "Gérer les préférences"
+
+footer.legal-notice: "©2025 PFU Canada Inc. | RICOH et le logo RICOH sont des marques déposées de Ricoh Company, Ltd."

@@ -1,0 +1,53 @@
+id: support-page
+fields:
+  pageTitle: Support page
+placeholders:
+  jss-main:
+    - componentName: Support
+      fields:
+        deckHeading: "Support Resources Are Within Reach"
+        deckSubHeading: "Find everything you need—from installation guides to technical data—in the links below."
+        card1Title: "Warranties, Manuals & Datasheets"
+        card1Summary: "Learn about your product's warranty in Canada."
+        card1Link:
+          href: "#"
+        card1LinkLabel: "View All"
+        card2Title: "Drivers & Downloads"
+        card2Summary: "Quickly find drivers and downloads."
+        card2Link:
+          href: "#"
+        card2LinkLabel: "View All"
+        card3Title: "Service Programs"
+        card3Summary: "Choose the right program at the right price for your business."
+        card3Link:
+          href: "#"
+        card3LinkLabel: "View All"
+        card4Title: "Consumables"
+        card4Summary: "Find part numbers for consumables."
+        card4Link:
+          href: "#"
+        card4LinkLabel: "View All"
+        contactSectionHeading: "Contact Information"
+        techSupportTitle: "Technical Support for all Products & Services"
+        techSupportPhone: "+18553051515"
+        techSupportEmail: "TSUPPORT@pfu-ca.ricoh.com"
+        techSupportLink:
+          href: "#"
+        techSupportLinkLabel: "Find Consumables (Rollers, etc)"
+        salesTitle: "Scanner & Software Sales"
+        salesPhone: "+18002638716"
+        salesEmail: "sales@pfu-ca.ricoh.com"
+        serviceSalesTitle: "Service Sales & Contract Support"
+        serviceSalesPhone: "+18002638716"
+        serviceSalesEmail: "Service@pfu-ca.ricoh.com"
+        secondDeckHeading: "Find the right Service Program for you."
+        secondDeckParagraph: "We offer several levels of Service Programs allowing you to choose the right program at the right price for your business. Our highly experienced service team will ensure your scanning projects stay on track. Review our service guide below."
+        secondCardTitle: "Advance Exchange"
+        secondCardSubTitle: "Priority Replacement"
+        secondCardSummary: "Keep downtime to a minimum with our simple, economical alternative for lightweight scanners: priority access to the service centre and as early as overnight scanner replacement."
+        secondCardLink:
+          href: "#"
+        secondCardLinkLabel: "Learn More"
+        secondCardBuyServiceLink:
+          href: "#"
+        secondCardBuyServiceLabel: "Buy Service"

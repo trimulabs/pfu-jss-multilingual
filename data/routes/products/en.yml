@@ -1,0 +1,26 @@
+id: product-page
+fields:
+  pageTitle: All Products
+placeholders:
+  jss-main:
+    - componentName: DocumentScanner
+      fields:
+        sectionHeading: "Browse our complete range of scanners"
+        sectionDescription: "Our cutting-edge technology and innovative design bridge the gap between the physical and digital worlds. Whether a professional RICOH scanner for business or a ScanSnap for personal use, you can be confident you're choosing the best in document scanning."
+
+        cardRICOHTitle: "View RICOH Scanners"
+        cardRICOHSummary: "Enterprise-class document scanners designed for the toughest challenges."
+        cardRICOHButton: "View RICOH Scanners"
+
+        cardScanSnapTitle: "ScanSnap Series"
+        cardScanSnapSummary: "Intuitive, high-quality scanners for home users and small businesses."
+        cardScanSnapButton: "View ScanSnap Scanners"
+
+        filtersHeading: "Filters"
+        resetAllButton: "Reset All"
+        showingXProductsLabel: "Showing {0} product(s)"
+        searchPlaceholder: "Search Products"
+
+        familyLegend: "Family"
+        typeLegend: "Scanner Type"
+        featuresLegend: "Scanner Features"

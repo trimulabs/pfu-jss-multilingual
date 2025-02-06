@@ -1,0 +1,36 @@
+id: services-page
+fields:
+  pageTitle: Services
+placeholders:
+  jss-main:
+    - componentName: Services
+      fields:
+        deckHeading: "Trouvez le programme de service qui vous convient"
+        deckParagraph: "Nous offrons plusieurs niveaux de programmes de service PFU, vous permettant de choisir la bonne option au bon prix pour votre entreprise. En restant dans la famille PFU, vous éviterez les erreurs coûteuses causées par des produits contrefaits ou de marques inconnues."
+        firstServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-advance-exchange.jpg?h=864&iar=0&w=1472&hash=DD0C4B0AC019768579AA25CB21AD5068"
+        firstServiceImageAlt: "Image Échange express"
+        firstServiceTitle: "Échange express"
+        firstServiceSubTitle: "Remplacement prioritaire"
+        firstServiceDescription: "Réduisez au minimum les temps d'arrêt grâce à notre solution simple et économique pour les numériseurs légers : accès prioritaire au centre de service et remplacement du numériseur dès le lendemain."
+        firstServiceLearnMoreLink: "#"
+        firstServiceLearnMoreLabel: "En savoir plus"
+        firstServiceBuyServiceLink: "#"
+        firstServiceBuyServiceLabel: "Acheter un service"
+        secondServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-basic-onsite-service.jpg?h=864&iar=0&w=1472&hash=5F8CC755891DBF2813E05A52C160605B"
+        secondServiceImageAlt: "Image Service sur site"
+        secondServiceTitle: "Service sur site"
+        secondServiceSubTitle: "Service sur site prioritaire et maintenance optionnelle"
+        secondServiceDescription: "Idéal pour les numériseurs de grande taille, notre programme de service sur site protège votre investissement pour que vous puissiez avoir l'esprit tranquille. De plus, vous pouvez compléter l'entretien régulier de l'opérateur en achetant des visites de maintenance préventive certifiées PFU."
+        secondServiceLearnMoreLink: "#"
+        secondServiceLearnMoreLabel: "En savoir plus"
+        secondServiceBuyServiceLink: "#"
+        secondServiceBuyServiceLabel: "Acheter un service"
+        thirdServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-depot-mail-in-service.jpg?h=864&iar=0&w=1472&hash=FF18A7E306CCD661833A855EF96AD026"
+        thirdServiceImageAlt: "Image service de réparation en centre"
+        thirdServiceTitle: "Service de réparation en centre"
+        thirdServiceSubTitle: "Service d'envoi par courrier"
+        thirdServiceDescription: "Idéal pour les clients souhaitant conserver leur unité d'origine, cette alternative vous permet d'envoyer vos numériseurs pour réparation."
+        thirdServiceLearnMoreLink: "#"
+        thirdServiceLearnMoreLabel: "En savoir plus"
+        thirdServiceBuyServiceLink: "#"
+        thirdServiceBuyServiceLabel: "Acheter un service"

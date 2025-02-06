@@ -1,0 +1,53 @@
+id: support-page
+fields:
+  pageTitle: Support page
+placeholders:
+  jss-main:
+    - componentName: Support
+      fields:
+        deckHeading: "Les ressources de support sont à portée de main"
+        deckSubHeading: "Trouvez tout ce dont vous avez besoin – des guides d'installation aux données techniques – dans les liens ci-dessous."
+        card1Title: "Garanties, Manuels et Fiches techniques"
+        card1Summary: "En savoir plus sur la garantie de votre produit au Canada."
+        card1Link:
+          href: "#"
+        card1LinkLabel: "Voir tout"
+        card2Title: "Pilotes et Téléchargements"
+        card2Summary: "Trouvez rapidement les pilotes et téléchargements."
+        card2Link:
+          href: "#"
+        card2LinkLabel: "Voir tout"
+        card3Title: "Programmes de service"
+        card3Summary: "Choisissez le bon programme au bon prix pour votre entreprise."
+        card3Link:
+          href: "#"
+        card3LinkLabel: "Voir tout"
+        card4Title: "Consommables"
+        card4Summary: "Trouvez les références des consommables."
+        card4Link:
+          href: "#"
+        card4LinkLabel: "Voir tout"
+        contactSectionHeading: "Informations de contact"
+        techSupportTitle: "Support technique pour tous les produits et services"
+        techSupportPhone: "+18553051515"
+        techSupportEmail: "TSUPPORT@pfu-ca.ricoh.com"
+        techSupportLink:
+          href: "#"
+        techSupportLinkLabel: "Trouver des consommables (rouleaux, etc.)"
+        salesTitle: "Ventes de scanners et logiciels"
+        salesPhone: "+18002638716"
+        salesEmail: "sales@pfu-ca.ricoh.com"
+        serviceSalesTitle: "Ventes de services et assistance aux contrats"
+        serviceSalesPhone: "+18002638716"
+        serviceSalesEmail: "Service@pfu-ca.ricoh.com"
+        secondDeckHeading: "Trouvez le programme de service qui vous convient."
+        secondDeckParagraph: "Nous proposons plusieurs niveaux de programmes de service vous permettant de choisir le bon programme au bon prix pour votre entreprise. Notre équipe de service hautement qualifiée veillera à ce que vos projets de numérisation restent sur la bonne voie. Consultez notre guide de service ci-dessous."
+        secondCardTitle: "Échange anticipé"
+        secondCardSubTitle: "Remplacement prioritaire"
+        secondCardSummary: "Minimisez les temps d'arrêt avec notre alternative simple et économique pour les scanners légers : accès prioritaire au centre de service et remplacement du scanner dès le lendemain."
+        secondCardLink:
+          href: "#"
+        secondCardLinkLabel: "En savoir plus"
+        secondCardBuyServiceLink:
+          href: "#"
+        secondCardBuyServiceLabel: "Acheter le service"

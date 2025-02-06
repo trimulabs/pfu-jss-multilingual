@@ -1,3 +1,64 @@
-Documentation: Documentation
-Styleguide: Styleguide
-GraphQL: GraphQL
+########### Header fiels ###########
+header.document-scanners: 'Document Scanners'
+header.solutions: 'Solutions'
+header.services: 'Services'
+header.support: 'Support'
+header.scansnap: 'ScanSnap'
+header.fi-series: 'fi Series'
+header.fi-series-software: 'fi Series Software'
+header.paperstream-ip: 'PaperStream IP'
+header.paperstream-clickscan: 'PaperStream ClickScan'
+header.paperstream-capture: 'PaperStream Capture'
+header.paperstream-capture-pro: 'PaperStream Capture Pro'
+header.paperstream-nx-manager: 'PaperStream NX Manager'
+header.scanner-central-admin: 'Scanner Central Admin'
+header.scansnap-software: 'ScanSnap Series Software'
+header.scansnap-home: 'ScanSnap Home'
+header.scansnap-cloud: 'ScanSnap Cloud'
+header.scansnap-connect: 'ScanSnap Connect'
+header.advance-exchange: 'Advance Exchange'
+header.depot: 'Depot'
+header.on-site-service: 'On-Site'
+header.warranties-manuals-datasheets: 'Warranties, Manuals & Datasheets'
+header.drivers-software-downloads: 'Drivers & Software Downloads'
+header.replacement-parts: 'Replacement Parts'
+header.product-registration: 'Product Registration'
+header.knowledge-base: 'Knowledge Base'
+
+header.region-picker.canada: 'Canada'
+header.region-picker.english-canada: 'English (Canada)'
+header.region-picker.french-canada: 'Français (Canada)'
+header.region-picker.mexico-central-america: 'Mexico, Central America, Caribbean, and South America'
+header.region-picker.united-states: 'United States'
+header.region-picker.english: 'English'
+header.region-picker.espanol: 'Español'
+header.region-picker.portugues: 'Português'
+
+########### Footer fiels ###########
+
+footer.all-products: "All Products"
+footer.scansnap: "ScanSnap"
+footer.fi-series: "fi Series"
+footer.software: "Software"
+footer.service-programs: "Service Programs"
+
+footer.about-us: "About Us"
+footer.contact-us: "Contact Us"
+
+footer.support: "Support"
+footer.warranties-manuals-datasheets: "Warranties, Manuals & Datasheets"
+footer.drivers-downloads: "Drivers & Downloads"
+footer.consumables: "Consumables"
+footer.product-registration: "Product Registration"
+footer.discontinued-scanners: "Discontinued Scanners"
+
+footer.social: "Social"
+footer.linkedin: "LinkedIn"
+footer.youtube: "YouTube"
+
+footer.accessibility: "Accessibility"
+footer.terms: "Terms"
+footer.privacy: "Privacy"
+footer.manage-preferences: "Manage Preferences"
+
+footer.legal-notice: "©2025 PFU Canada Inc. | RICOH and the RICOH logo are registered trademarks of Ricoh Company, Ltd."

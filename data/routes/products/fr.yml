@@ -1,0 +1,26 @@
+id: product-page
+fields:
+  pageTitle: Tous les produits
+placeholders:
+  jss-main:
+    - componentName: DocumentScanner
+      fields:
+        sectionHeading: "Parcourez notre gamme complète de numériseurs"
+        sectionDescription: "Notre technologie de pointe et notre conception novatrice vous aident à faire le pont entre les mondes physique et numérique. Que ce soit un numériseur RICOH professionnel ou un ScanSnap pour une utilisation personnelle, vous pouvez être assuré de choisir le meilleur en matière de numérisation de documents."
+
+        cardRICOHTitle: "Afficher les numériseurs RICOH"
+        cardRICOHSummary: "Numériseurs de documents pour les entreprises de première qualité conçus pour les plus rudes défis."
+        cardRICOHButton: "Afficher les numériseurs RICOH"
+
+        cardScanSnapTitle: "Série ScanSnap"
+        cardScanSnapSummary: "Numériseurs intuitifs et de haute qualité pour les utilisateurs à la maison ainsi que pour les petites entreprises."
+        cardScanSnapButton: "Afficher les numériseurs ScanSnap"
+
+        filtersHeading: "Filtres"
+        resetAllButton: "Réinitialiser tout"
+        showingXProductsLabel: "Affichage de {0} produit(s)"
+        searchPlaceholder: "Recherche de produits"
+
+        familyLegend: "Famille"
+        typeLegend: "Type de numériseur"
+        featuresLegend: "Scanner Features"

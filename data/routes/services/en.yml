@@ -1,0 +1,36 @@
+id: services-page
+fields:
+  pageTitle: Services
+placeholders:
+  jss-main:
+    - componentName: Services
+      fields:
+        deckHeading: "Find the right service program for you"
+        deckParagraph: "We offer several levels of PFU Service Programs, allowing you to choose the right one at the right price for your business. By keeping things in the PFU family, you'll avoid the costly errors caused by counterfeit or off-brand products."
+        firstServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-advance-exchange.jpg?h=864&iar=0&w=1472&hash=DD0C4B0AC019768579AA25CB21AD5068"
+        firstServiceImageAlt: "Advance Exchange Service Image"
+        firstServiceTitle: "Advance Exchange"
+        firstServiceSubTitle: "Priority Replacement"
+        firstServiceDescription: "Keep downtime to a minimum with our simple, economical alternative for lightweight scanners: priority access to the service centre and as early as overnight scanner replacement."
+        firstServiceLearnMoreLink: "/en/services/advance-exchange"
+        firstServiceLearnMoreLabel: "Learn More"
+        firstServiceBuyServiceLink: "https://pciscannerstore.ca/service-programs/"
+        firstServiceBuyServiceLabel: "Buy Service"
+        secondServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-basic-onsite-service.jpg?h=864&iar=0&w=1472&hash=5F8CC755891DBF2813E05A52C160605B"
+        secondServiceImageAlt: "On-site Service Image"
+        secondServiceTitle: "On-site Service"
+        secondServiceSubTitle: "Priority On-Site Service & Optional Maintenance"
+        secondServiceDescription: "Ideal for large scanners, our on-site service program provides on-site service to protect your investment so you can enjoy peace of mind. Additionally, you can add on to your regularly performed Operator Maintenance by purchasing additional PFU Certified Preventative Maintenance visits by our certified professionals."
+        secondServiceLearnMoreLink: "/en/services/on-site"
+        secondServiceLearnMoreLabel: "Learn More"
+        secondServiceBuyServiceLink: "https://pciscannerstore.ca/service-programs/"
+        secondServiceBuyServiceLabel: "Buy Service"
+        thirdServiceImage: "https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-depot-mail-in-service.jpg?h=864&iar=0&w=1472&hash=FF18A7E306CCD661833A855EF96AD026"
+        thirdServiceImageAlt: "Depot Ship-in Service Image"
+        thirdServiceTitle: "Depot Ship-in Service"
+        thirdServiceSubTitle: "Ship-in Service"
+        thirdServiceDescription: "Ideal for customers with asset tag retention, IT organizations, or anyone who wants to retain their own original unit. This alternative lets you send your scanners in for repair."
+        thirdServiceLearnMoreLink: "/en/services/depot"
+        thirdServiceLearnMoreLabel: "Learn More"
+        thirdServiceBuyServiceLink: "https://pciscannerstore.ca/service-programs/"
+        thirdServiceBuyServiceLabel: "Buy Service"
