@@ -4,7 +4,6 @@ import './styles.css';
 import { useState } from 'react';
 
 let Header = (props) => {
-  console.log(props);
   const { defaultLanguage, t } = props;
   const regionList = [
     {
@@ -67,7 +66,16 @@ let Header = (props) => {
 
   const handleLanguageSelect = (lang) => {
     setSelectedLanguage(lang);
-    window.location.href = lang.link;
+    // window.location.href = lang.link;
+    const currentPath = window.location.pathname;
+    const segments = currentPath.split('/');
+    if (segments.length > 1) {
+      segments[1] = lang.code;
+      const newPath = segments.join('/');
+      window.location.href = newPath + window.location.search;
+    } else {
+      window.location.href = lang.link;
+    }
   };
   return (
     <header className="primary-header sticky-top" aria-label="Page Header">

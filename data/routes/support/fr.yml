@@ -1,53 +1,75 @@
 id: support-page
 fields:
-  pageTitle: Support page
+  pageTitle: 'Assistance Ricoh Scanner - Assistance pour Scanner & ScanSnap & Service Client'
 placeholders:
   jss-main:
     - componentName: Support
       fields:
-        deckHeading: "Les ressources de support sont à portée de main"
-        deckSubHeading: "Trouvez tout ce dont vous avez besoin – des guides d'installation aux données techniques – dans les liens ci-dessous."
-        card1Title: "Garanties, Manuels et Fiches techniques"
-        card1Summary: "En savoir plus sur la garantie de votre produit au Canada."
-        card1Link:
-          href: "#"
-        card1LinkLabel: "Voir tout"
-        card2Title: "Pilotes et Téléchargements"
-        card2Summary: "Trouvez rapidement les pilotes et téléchargements."
-        card2Link:
-          href: "#"
-        card2LinkLabel: "Voir tout"
-        card3Title: "Programmes de service"
-        card3Summary: "Choisissez le bon programme au bon prix pour votre entreprise."
-        card3Link:
-          href: "#"
-        card3LinkLabel: "Voir tout"
-        card4Title: "Consommables"
-        card4Summary: "Trouvez les références des consommables."
-        card4Link:
-          href: "#"
-        card4LinkLabel: "Voir tout"
-        contactSectionHeading: "Informations de contact"
-        techSupportTitle: "Support technique pour tous les produits et services"
-        techSupportPhone: "+18553051515"
-        techSupportEmail: "TSUPPORT@pfu-ca.ricoh.com"
-        techSupportLink:
-          href: "#"
-        techSupportLinkLabel: "Trouver des consommables (rouleaux, etc.)"
-        salesTitle: "Ventes de scanners et logiciels"
-        salesPhone: "+18002638716"
-        salesEmail: "sales@pfu-ca.ricoh.com"
-        serviceSalesTitle: "Ventes de services et assistance aux contrats"
-        serviceSalesPhone: "+18002638716"
-        serviceSalesEmail: "Service@pfu-ca.ricoh.com"
-        secondDeckHeading: "Trouvez le programme de service qui vous convient."
-        secondDeckParagraph: "Nous proposons plusieurs niveaux de programmes de service vous permettant de choisir le bon programme au bon prix pour votre entreprise. Notre équipe de service hautement qualifiée veillera à ce que vos projets de numérisation restent sur la bonne voie. Consultez notre guide de service ci-dessous."
-        secondCardTitle: "Échange anticipé"
-        secondCardSubTitle: "Remplacement prioritaire"
-        secondCardSummary: "Minimisez les temps d'arrêt avec notre alternative simple et économique pour les scanners légers : accès prioritaire au centre de service et remplacement du scanner dès le lendemain."
-        secondCardLink:
-          href: "#"
-        secondCardLinkLabel: "En savoir plus"
-        secondCardBuyServiceLink:
-          href: "#"
-        secondCardBuyServiceLabel: "Acheter le service"
+        calloutDeckHeading: "Les ressources d'assistance sont à portée de main"
+        calloutDeckSubheading: "Trouvez tout ce dont vous avez besoin — des guides d'installation aux données techniques — dans les liens ci-dessous."
+        supportCard1Title: 'Garanties, Manuels & Fiches Techniques'
+        supportCard1Summary: 'Découvrez la garantie de votre produit au Canada.'
+        supportCard1Link: '/fr/support/warranties-manuals-datasheets'
+        supportCard1LinkLabel: 'Voir tout'
+        supportCard2Title: 'Pilotes & Téléchargements'
+        supportCard2Summary: 'Trouvez rapidement les pilotes et téléchargements.'
+        supportCard2Link: '/fr/support/drivers-software-downloads'
+        supportCard2LinkLabel: 'Voir tout'
+        supportCard3Title: 'Programmes de Service'
+        supportCard3Summary: 'Choisissez le bon programme au bon prix pour votre entreprise.'
+        supportCard3Link: '/fr/services'
+        supportCard3LinkLabel: 'Voir tout'
+        supportCard4Title: 'Consommables'
+        supportCard4Summary: 'Trouvez les références des consommables.'
+        supportCard4Link: '/fr/support/replacement-parts'
+        supportCard4LinkLabel: 'Voir tout'
+        supportCard5Title: 'Enregistrement du Produit'
+        supportCard5Summary: 'Enregistrez votre scanner.'
+        supportCard5Link: 'https://www.paiservicedesk.com/pfu?id=f_sc_cat_item&sys_id=638b965d1be144d0fd7abbfccd4bcb8b'
+        supportCard5LinkLabel: 'Voir tout'
+        supportCard6Title: 'Scanners Arrêtés'
+        supportCard6Summary: 'Trouvez le modèle de remplacement pour votre scanner arrêté.'
+        supportCard6Link: '/fr/scanners/discontinued'
+        supportCard6LinkLabel: 'Voir tout'
+        contactHeading: 'Informations de Contact'
+        contact1Title: 'Assistance Technique pour tous les Produits et Services'
+        contact1Phone: '855.305.1515'
+        contact1PhoneLink: 'tel:+18553051515'
+        contact1Email: 'TSUPPORT@pfu-ca.ricoh.com'
+        contact1EmailLink: 'mailto:TSUPPORT@pfu-ca.ricoh.com'
+        contact1ExtraLink: '/fr/support/replacement-parts'
+        contact1ExtraLinkLabel: 'Trouver des consommables (Rouleaux, etc)'
+        contact2Title: 'Ventes de Scanners & Logiciels'
+        contact2Phone: '800.263.8716'
+        contact2PhoneLink: 'tel:+18002638716'
+        contact2Email: 'sales@pfu-ca.ricoh.com'
+        contact2EmailLink: 'mailto:sales@pfu-ca.ricoh.com'
+        contact3Title: 'Ventes de Services & Support Contractuel'
+        contact3Phone: '800.263.8716'
+        contact3PhoneLink: 'tel:+18002638716'
+        contact3Email: 'Service@pfu-ca.ricoh.com'
+        contact3EmailLink: 'mailto:Service@pfu-ca.ricoh.com'
+        serviceDeckHeading: 'Trouvez le programme de service qui vous convient.'
+        serviceDeckParagraph: 'Nous offrons plusieurs niveaux de programmes de service vous permettant de choisir le bon programme au bon prix pour votre entreprise. Notre équipe de service expérimentée veillera à ce que vos projets de numérisation se déroulent sans encombre. Consultez notre guide de service ci-dessous.'
+        service1Title: 'Échange Express'
+        service1SubTitle: 'Remplacement prioritaire'
+        service1Description: "Réduisez au minimum les temps d'arrêt grâce à notre alternative simple et économique pour les numériseurs légers : accès prioritaire au centre de service et remplacement du numériseur dès le lendemain."
+        service1LearnMoreLink: '/fr/services/advance-exchange'
+        service1LearnMoreLabel: 'En savoir plus'
+        service1BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service1BuyServiceLabel: 'Acheter un service'
+        service2Title: 'Service de Réparation en Centre'
+        service2SubTitle: "Service d'envoi par courrier"
+        service2Description: "Idéal pour les clients souhaitant conserver leur unité d'origine, pour ceux qui gèrent des organisations informatiques ou pour ceux qui désirent conserver leur unité d'origine, cette alternative vous permet d'envoyer vos numériseurs pour réparation."
+        service2LearnMoreLink: '/fr/services/depot'
+        service2LearnMoreLabel: 'En savoir plus'
+        service2BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service2BuyServiceLabel: 'Acheter un service'
+        service3Title: 'Service sur Site'
+        service3SubTitle: 'Service sur site prioritaire et maintenance optionnelle'
+        service3Description: "Idéal pour les numériseurs de grande taille, notre programme de service sur site offre un service sur site pour protéger votre investissement afin que vous puissiez avoir l'esprit tranquille. De plus, vous pouvez compléter l'entretien régulier de l'opérateur en achetant des visites de maintenance préventive certifiées PFU."
+        service3LearnMoreLink: '/fr/services/on-site'
+        service3LearnMoreLabel: 'En savoir plus'
+        service3BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service3BuyServiceLabel: 'Acheter un service'
+

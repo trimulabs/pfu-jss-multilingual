@@ -1,53 +1,75 @@
 id: support-page
 fields:
-  pageTitle: Support page
+  pageTitle: 'Ricoh Scanner Support - Scanner & ScanSnap Support & Customer Service'
 placeholders:
   jss-main:
     - componentName: Support
       fields:
-        deckHeading: "Support Resources Are Within Reach"
-        deckSubHeading: "Find everything you need—from installation guides to technical data—in the links below."
-        card1Title: "Warranties, Manuals & Datasheets"
-        card1Summary: "Learn about your product's warranty in Canada."
-        card1Link:
-          href: "#"
-        card1LinkLabel: "View All"
-        card2Title: "Drivers & Downloads"
-        card2Summary: "Quickly find drivers and downloads."
-        card2Link:
-          href: "#"
-        card2LinkLabel: "View All"
-        card3Title: "Service Programs"
-        card3Summary: "Choose the right program at the right price for your business."
-        card3Link:
-          href: "#"
-        card3LinkLabel: "View All"
-        card4Title: "Consumables"
-        card4Summary: "Find part numbers for consumables."
-        card4Link:
-          href: "#"
-        card4LinkLabel: "View All"
-        contactSectionHeading: "Contact Information"
-        techSupportTitle: "Technical Support for all Products & Services"
-        techSupportPhone: "+18553051515"
-        techSupportEmail: "TSUPPORT@pfu-ca.ricoh.com"
-        techSupportLink:
-          href: "#"
-        techSupportLinkLabel: "Find Consumables (Rollers, etc)"
-        salesTitle: "Scanner & Software Sales"
-        salesPhone: "+18002638716"
-        salesEmail: "sales@pfu-ca.ricoh.com"
-        serviceSalesTitle: "Service Sales & Contract Support"
-        serviceSalesPhone: "+18002638716"
-        serviceSalesEmail: "Service@pfu-ca.ricoh.com"
-        secondDeckHeading: "Find the right Service Program for you."
-        secondDeckParagraph: "We offer several levels of Service Programs allowing you to choose the right program at the right price for your business. Our highly experienced service team will ensure your scanning projects stay on track. Review our service guide below."
-        secondCardTitle: "Advance Exchange"
-        secondCardSubTitle: "Priority Replacement"
-        secondCardSummary: "Keep downtime to a minimum with our simple, economical alternative for lightweight scanners: priority access to the service centre and as early as overnight scanner replacement."
-        secondCardLink:
-          href: "#"
-        secondCardLinkLabel: "Learn More"
-        secondCardBuyServiceLink:
-          href: "#"
-        secondCardBuyServiceLabel: "Buy Service"
+        calloutDeckHeading: 'Support Resources Are Within Reach'
+        calloutDeckSubheading: 'Find everything you need—from installation guides to technical data—in the links below.'
+        supportCard1Title: 'Warranties, Manuals & Datasheets'
+        supportCard1Summary: "Learn about your product's warranty in Canada."
+        supportCard1Link: '/en/support/warranties-manuals-datasheets'
+        supportCard1LinkLabel: 'View All'
+        supportCard2Title: 'Drivers & Downloads'
+        supportCard2Summary: 'Quickly find drivers and downloads.'
+        supportCard2Link: '/en/support/drivers-software-downloads'
+        supportCard2LinkLabel: 'View All'
+        supportCard3Title: 'Service Programs'
+        supportCard3Summary: 'Choose the right program at the right price for your business.'
+        supportCard3Link: '/en/services'
+        supportCard3LinkLabel: 'View All'
+        supportCard4Title: 'Consumables'
+        supportCard4Summary: 'Find part numbers for consumables.'
+        supportCard4Link: '/en/support/replacement-parts'
+        supportCard4LinkLabel: 'View All'
+        supportCard5Title: 'Product Registration'
+        supportCard5Summary: 'Register your scanner.'
+        supportCard5Link: 'https://www.paiservicedesk.com/pfu?id=f_sc_cat_item&sys_id=638b965d1be144d0fd7abbfccd4bcb8b'
+        supportCard5LinkLabel: 'View All'
+        supportCard6Title: 'Discontinued Scanners'
+        supportCard6Summary: 'Find the replacement model for your discontinued scanner.'
+        supportCard6Link: '/en/scanners/discontinued'
+        supportCard6LinkLabel: 'View All'
+        contactHeading: 'Contact Information'
+        contact1Title: 'Technical Support for all Products & Services'
+        contact1Phone: '855.305.1515'
+        contact1PhoneLink: 'tel:+18553051515'
+        contact1Email: 'TSUPPORT@pfu-ca.ricoh.com'
+        contact1EmailLink: 'mailto:TSUPPORT@pfu-ca.ricoh.com'
+        contact1ExtraLink: '/en/support/replacement-parts'
+        contact1ExtraLinkLabel: 'Find Consumables (Rollers, etc)'
+        contact2Title: 'Scanner & Software Sales'
+        contact2Phone: '800.263.8716'
+        contact2PhoneLink: 'tel:+18002638716'
+        contact2Email: 'sales@pfu-ca.ricoh.com'
+        contact2EmailLink: 'mailto:sales@pfu-ca.ricoh.com'
+        contact3Title: 'Service Sales & Contract Support'
+        contact3Phone: '800.263.8716'
+        contact3PhoneLink: 'tel:+18002638716'
+        contact3Email: 'Service@pfu-ca.ricoh.com'
+        contact3EmailLink: 'mailto:Service@pfu-ca.ricoh.com'
+        serviceDeckHeading: 'Find the right Service Program for you.'
+        serviceDeckParagraph: 'We offer several levels of Service Programs allowing you to choose the right program at the right price for your business. Our highly experienced service team will ensure your scanning projects stay on track. Review our service guide below.'
+        service1Title: 'Advance Exchange'
+        service1SubTitle: 'Priority Replacement'
+        service1Description: 'Keep downtime to a minimum with our simple, economical alternative for lightweight scanners: priority access to the service centre and as early as overnight scanner replacement.'
+        service1LearnMoreLink: '/en/services/advance-exchange'
+        service1LearnMoreLabel: 'Learn More'
+        service1BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service1BuyServiceLabel: 'Buy Service'
+        service2Title: 'Depot Ship-in Service'
+        service2SubTitle: 'Ship-in Service'
+        service2Description: 'Ideal for customers with asset tag retention, for those who run IT organizations or for anyone who wants to retain their original unit. This alternative lets you send your scanners in for repair.'
+        service2LearnMoreLink: '/en/services/depot'
+        service2LearnMoreLabel: 'Learn More'
+        service2BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service2BuyServiceLabel: 'Buy Service'
+        service3Title: 'On-site Service'
+        service3SubTitle: 'Priority On-Site Service & Optional Maintenance'
+        service3Description: 'Ideal for large scanners, our on-site service program provides on-site service to protect your investment so you can enjoy peace of mind. Additionally, you can add to your regularly performed Operator Maintenance by purchasing additional PFU Certified Preventative Maintenance visits by our certified professionals.'
+        service3LearnMoreLink: '/en/services/on-site'
+        service3LearnMoreLabel: 'Learn More'
+        service3BuyServiceLink: 'https://pciscannerstore.ca/service-programs/'
+        service3BuyServiceLabel: 'Buy Service'
+

@@ -26,7 +26,7 @@ const Layout = ({ route }) => (
     <Header defaultLanguage={route.itemLanguage} />
 
     {/* root placeholder for the app, which we add components to using route data */}
-    <div className="container px-5">
+    <div className="px-5">
       <Placeholder name="jss-main" rendering={route} />
     </div>
 

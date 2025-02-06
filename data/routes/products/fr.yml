@@ -1,26 +1,241 @@
-id: product-page
+id: products-page
 fields:
-  pageTitle: Tous les produits
+  pageTitle: 'Tous les produits'
 placeholders:
   jss-main:
     - componentName: DocumentScanner
       fields:
-        sectionHeading: "Parcourez notre gamme complète de numériseurs"
-        sectionDescription: "Notre technologie de pointe et notre conception novatrice vous aident à faire le pont entre les mondes physique et numérique. Que ce soit un numériseur RICOH professionnel ou un ScanSnap pour une utilisation personnelle, vous pouvez être assuré de choisir le meilleur en matière de numérisation de documents."
+        deckHeaderHeading: 'Parcourez notre gamme complète de numériseurs'
+        deckHeaderParagraph: 'Notre technologie de pointe et notre conception novatrice vous aident à faire le pont entre les mondes physique et numérique. Que ce soit un numériseur RICOH professionnel ou un ScanSnap pour une utilisation personnelle, vous pouvez être assuré de choisir le meilleur en matière de numérisation de documents.'
+        categoryCards:
+          - fields:
+              title: 'Afficher les numériseurs RICOH'
+              summary: 'Numériseurs de documents pour les entreprises de première qualité conçus pour les plus rudes défis.'
+              linkLabel: 'Afficher les numériseurs RICOH'
+              link: '#'
+          - fields:
+              title: 'Série ScanSnap'
+              summary: 'Numériseurs intuitifs et de haute qualité pour les utilisateurs à la maison ainsi que pour les petites entreprises.'
+              linkLabel: 'Afficher les numériseurs ScanSnap'
+              link: '#'
+        filterHeading: 'Filtres'
+        filterResetButton: 'Réinitialiser tout'
+        resultsCount: 'Affichage de 27 produit(s)'
+        searchPlaceholder: 'Recherche de produits'
+        filterToggleButton: 'Filtres'
+        filterFamilyLegend: 'Famille'
+        filterFamilyOptions:
+          - fields:
+              value: 'Série fi'
+          - fields:
+              value: 'Série ScanSnap'
+          - fields:
+              value: 'Série SP'
+        filterTypeLegend: 'Type de numériseur'
+        filterTypeOptions:
+          - fields:
+              value: 'Ordinateur de bureau'
+          - fields:
+              value: 'Niveau d’entrée'
+          - fields:
+              value: 'Réseau'
+          - fields:
+              value: 'Personnel'
+          - fields:
+              value: 'Production'
+          - fields:
+              value: 'Petites entreprises'
+        filterFeatureLegend: 'Fonctionnalités du scanner'
+        filterFeatureOptions:
+          - fields:
+              value: 'Nuage'
+          - fields:
+              value: 'Compact'
+          - fields:
+              value: 'Double lettre'
+          - fields:
+              value: 'À plat'
+          - fields:
+              value: 'Mobile'
+          - fields:
+              value: 'Interface réseau'
+          - fields:
+              value: 'Lecteur NFC'
+          - fields:
+              value: 'En hauteur'
+          - fields:
+              value: 'Numérisation de photos'
+          - fields:
+              value: 'Numérisation de reçus'
+          - fields:
+              value: 'Suite logicielle'
+          - fields:
+              value: 'Écran tactile'
+          - fields:
+              value: 'Conforme aux normes commerciales'
+          - fields:
+              value: 'Sans fil'
+        productCards:
+          - fields:
+              title: 'ScanSnap® iX1600'
+              description: 'Numériseur polyvalent compatible avec le nuage'
+              cta: 'En savoir plus'
+              srOnly: 'À propos ScanSnap® iX1600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1600/ricohscansnapcardix1600white1xsmallshadow.jpg?mw=528&hash=B4FF134FCDDFC1567F5092C9B0360B4F'
+          - fields:
+              title: 'ScanSnap® iX1400'
+              description: 'Numériseur à une touche simple'
+              cta: 'En savoir plus'
+              srOnly: 'À propos ScanSnap® iX1400'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1400/r_ix1400_card.jpg?mw=528&hash=39F6DC0263DC2E42767F44E18DA0E344'
+          - fields:
+              title: 'ScanSnap® iX1300'
+              description: 'Numériseur recto verso Wi-Fi compact'
+              cta: 'En savoir plus'
+              srOnly: 'À propos ScanSnap® iX1300'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1300/r_ix1300_card.jpg?mw=528&hash=346BD0D2BD6CF1B2A182DE2C9FCC9D80'
+          - fields:
+              title: 'ScanSnap® iX100'
+              description: 'Numériseur mobile sans fil compact'
+              cta: 'En savoir plus'
+              srOnly: 'À propos ScanSnap® iX100'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix100/r_ix100_card.jpg?mw=528&hash=91BE3F4FB33271EC4AAD322EB217888D'
+          - fields:
+              title: 'fi-8170'
+              description: 'La nouvelle génération d’excellence en numérisation'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8170'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8170/r_fi-8170_card.jpg?mw=528&hash=769D3C335F394DD5173D5B56C86F5BB4'
+          - fields:
+              title: 'fi-8270'
+              description: 'La nouvelle génération d’excellence en numérisation à plat'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8270'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8270/r_fi-8270_card.jpg?mw=528&hash=D49D4652D979BAB1DDE91E732B924ED8'
+          - fields:
+              title: 'fi-7300NX'
+              description: 'Numériseur réseau flexible avec NX Manager'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7300NX'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7300nx/r_fi-7300nx_card_1.jpg?mw=528&hash=273B0E70644E21861B87BCE91668B2FB'
+          - fields:
+              title: 'fi-8190'
+              description: 'Numériseur ADD haute performance de nouvelle génération'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8190'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8190/r_fi-8190_card.jpg?mw=528&hash=A0F95C8246A5A6E65BDD16BA07048EDA'
+          - fields:
+              title: 'fi-8290'
+              description: 'La nouvelle génération d’excellence en numérisation à plat'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8290'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8290/ricoh_fi-8290_right_close.png?mw=528&hash=4ABD13F0DA763A380341B68650BBD1CB'
+          - fields:
+              title: 'fi-8150'
+              description: 'Numériseur ADD pour les charges de travail légères'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8150'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8150/ricoh_fi-8150_front_close.png?mw=528&hash=932F4AFE5EFD85F8D27F8E5532087F96'
+          - fields:
+              title: 'fi-8250'
+              description: 'Numériseur ADD avec écran plat pour les charges de travail légères'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8250'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8250/r_fi-8250_card.jpg?mw=528&hash=8B1AA4F092065118C7F6E653E7AC780C'
+          - fields:
+              title: 'fi-8040'
+              description: 'Numérisation collaborative simplifiée'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8040'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8040/fi-8040_card.jpg?mw=528&hash=BB61C2ED733854817D3FB2D715ACDFF9'
+          - fields:
+              title: 'fi-800R'
+              description: 'Numériseur le plus polyvalent de 2019'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-800R'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-800r/r_fi-800r_card.jpg?mw=528&hash=DB58593C667D239532FAB26215CE31B3'
+          - fields:
+              title: 'fi-7460'
+              description: 'Numériseur Essential A3'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7460'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7460/r_fi-7460_card.jpg?mw=528&hash=24FF04DA71FCAAC985F662D316AA76D4'
+          - fields:
+              title: 'fi-7480'
+              description: 'Numériseur A3 de haute performance'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7480'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7480/r_fi-7480_card.jpg?mw=528&hash=45A86F3929C4AE0B6CB31938B46C6C2F'
+          - fields:
+              title: 'fi-7600'
+              description: 'Numériseur ADD à volume élevé flexible'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7600/r_fi-7600_card.jpg?mw=528&hash=6FB7E7917B0EB3A4B7E27D20C34EF327'
+          - fields:
+              title: 'fi-7700'
+              description: 'Numériseur ADD flexible à volume élevé à plat'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7700'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7700/r_fi-7700_card.jpg?mw=528&hash=31BC0C5BF678EA3845FA93350D846909'
+          - fields:
+              title: 'fi-7800'
+              description: 'Numériseur robuste à prix économique pour service d’appui'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7800'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7800/r_fi-7800_card.jpg?mw=528&hash=7CD3BAB3BFAD9B1845DD2AA9EF84346B'
+          - fields:
+              title: 'fi-7900'
+              description: 'Numériseur robuste rapide pour les projets en entreprise'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-7900'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7900/r_fi-7900_card.jpg?mw=528&hash=CC39C71A2C61E28A4011293B228FD369'
+          - fields:
+              title: 'fi-8820'
+              description: 'Numériseur de production haute performance à prix avantageux'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8820'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8820/fi-8820_card.jpg?mw=528&hash=3551A8314C3284A547108F0DD7EE3488'
+          - fields:
+              title: 'fi-8930'
+              description: 'Numériseur rapide et robuste pour les projets centralisés'
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8930'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8930/fi-8930_card.jpg?mw=528&hash=2335F466F322D392062D606971E58628'
+          - fields:
+              title: 'fi-8950'
+              description: "Numériseur de production le plus performant pour les projets d'entreprise"
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-8950'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8950/fi-8950_front_close.png?mw=528&hash=64BBF9723453781166448552FD1A4DDC'
+          - fields:
+              title: 'ScanSnap® SV600'
+              description: 'Numériseur sans contact grand format'
+              cta: 'En savoir plus'
+              srOnly: 'À propos ScanSnap® SV600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-sv600/r_sv600_card.jpg?mw=528&hash=2F0F359971A98C0A8F5B8386239E0D36'
+          - fields:
+              title: 'fi-70F'
+              description: "La nouvelle génération d'excellence en matière de numérisation"
+              cta: 'En savoir plus'
+              srOnly: 'À propos fi-70F'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-70f/fi-70f_card.jpg?mw=528&hash=9FDA7AF69A5848EFA188B6E31C0D72AF'
+          - fields:
+              title: 'N7100E'
+              description: 'Numériseur réseau autonome compact'
+              cta: 'En savoir plus'
+              srOnly: 'À propos N7100E'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/n7100e/r_n7100e_card.jpg?mw=528&hash=C40AF9ECCFFC9DF78B9F3572D959DA41'
+          - fields:
+              title: 'SP-1120N'
+              description: 'Numériseur réseau TWAIN et ISIS abordable'
+              cta: 'En savoir plus'
+              srOnly: 'À propos SP-1120N'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/sp-1120n/r_sp-1120n_card.jpg?mw=528&hash=50D03E3467A6438BEC4109B760D3BB72'
+          - fields:
+              title: 'SP-1130N'
+              description: 'Numériseur réseau TWAIN et ISIS abordable'
+              cta: 'En savoir plus'
+              srOnly: 'À propos SP-1130N'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/sp-1130n/r_sp-1130n_card.jpg?mw=528&hash=AA044D9713D2CBA165A32CD95C76B808'
 
-        cardRICOHTitle: "Afficher les numériseurs RICOH"
-        cardRICOHSummary: "Numériseurs de documents pour les entreprises de première qualité conçus pour les plus rudes défis."
-        cardRICOHButton: "Afficher les numériseurs RICOH"
-
-        cardScanSnapTitle: "Série ScanSnap"
-        cardScanSnapSummary: "Numériseurs intuitifs et de haute qualité pour les utilisateurs à la maison ainsi que pour les petites entreprises."
-        cardScanSnapButton: "Afficher les numériseurs ScanSnap"
-
-        filtersHeading: "Filtres"
-        resetAllButton: "Réinitialiser tout"
-        showingXProductsLabel: "Affichage de {0} produit(s)"
-        searchPlaceholder: "Recherche de produits"
-
-        familyLegend: "Famille"
-        typeLegend: "Type de numériseur"
-        featuresLegend: "Scanner Features"

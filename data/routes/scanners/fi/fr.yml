@@ -1,3 +1,66 @@
 id: scanners-fi-page
 fields:
-  pageTitle: Scanners
+  pageTitle: 'Ricoh Scanners'
+placeholders:
+  jss-main:
+    - componentName: ScannersFi
+      fields:
+        heroHeading: 'Innovation dans tous les secteurs'
+        heroBody: "Les numériseurs Ricoh gèrent les défis d'imagerie les plus exigeants au monde."
+        heroCtaLabel: 'Parcourir tous les numériseurs'
+        heroCtaLink: '#'
+        heroProducts:
+          - fields:
+              value: 'fi-800R'
+          - fields:
+              value: 'fi-7300NX'
+          - fields:
+              value: 'fi-8170'
+          - fields:
+              value: 'fi-7600'
+        promo1Title: 'fi-8170'
+        promo1Heading: 'La prochaine génération d’excellence en numérisation'
+        promo1Body: 'Conçu pour améliorer les flux de travail numériques actuels de votre organisation.'
+        promo1CtaLabel: 'Voir le produit'
+        promo1CtaLink: '#'
+        promo2Title: 'fi-7300NX'
+        promo2Heading: 'Un numériseur réseau aux possibilités infinies'
+        promo2Body: 'Idéal pour une capture distribuée, le fi-7300NX est connecté en réseau et compatible Wi-Fi.'
+        promo2CtaLabel: 'Voir le produit'
+        promo2CtaLink: '#'
+        promo3Title: 'fi-800R'
+        promo3Heading: 'Un numériseur puissant avec une empreinte réduite'
+        promo3Body: 'Avec un chargeur frontal innovant et un ADF en U-turn, ce numériseur offre un service client exceptionnel.'
+        promo3CtaLabel: 'Voir le produit'
+        promo3CtaLink: '#'
+        promoCard1Title: "Numériseurs d'entrée de gamme"
+        promoCard1Summary: 'Solutions de numérisation fiables et abordables avec les fonctionnalités essentielles pour une utilisation simple.'
+        promoCard1CtaLabel: "Parcourir les numériseurs d'entrée de gamme"
+        promoCard1Link: '#'
+        promoCard2Title: 'Numériseurs de bureau'
+        promoCard2Summary: 'Les numériseurs de bureau de la série fi sont les compagnons idéaux pour tous vos besoins de bureau.'
+        promoCard2CtaLabel: 'Parcourir les numériseurs de bureau'
+        promoCard2Link: '3'
+        promoCard3Title: 'Numériseurs de production'
+        promoCard3Summary: 'Les numériseurs de production de la série fi offrent une capacité de traitement extrêmement élevée, une flexibilité et une fiabilité remarquables.'
+        promoCard3CtaLabel: 'Parcourir les numériseurs de production'
+        promoCard3Link: '#'
+        promoCard4Title: 'Numériseurs réseau'
+        promoCard4Summary: 'Les numériseurs réseau de la série fi permettent à plusieurs utilisateurs de numériser vers des destinations uniques — vers le réseau ou le cloud.'
+        promoCard4CtaLabel: 'Parcourir les numériseurs réseau'
+        promoCard4Link: '#'
+        featuredPromo1Title: 'fi-7300NX'
+        featuredPromo1Description: "Optimisez l'espace de votre bureau et placez ce numériseur connecté en Wi-Fi et compatible cloud n'importe où, sans être limité par les câbles USB."
+        featuredPromo1CtaLabel: 'Voir le produit'
+        featuredPromo1Link: '#'
+        featuredPromo2Title: 'PaperStream NX Manager'
+        featuredPromo2Heading: 'Numérisez, intégrez et gérez vos processus documentaires avec ce puissant logiciel serveur.'
+        featuredPromo2CtaLabel: 'En savoir plus'
+        featuredPromo2Link: '#'
+        softwareGridHeading: "Maximisez vos solutions d'imagerie avec PaperStream"
+        softwareGridSubheading: "Un logiciel évolué et intuitif qui améliore l'efficacité et réduit les coûts."
+        softwareItemTitle: 'Scanner Central Admin'
+        softwareItemDescription: 'Gérez une flotte de numériseurs et les mises à jour logicielles grâce à cette application administrative pratique et économique.'
+        softwareItemCtaLabel: 'En savoir plus'
+        softwareItemLink: '#'
+

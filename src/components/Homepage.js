@@ -1,7 +1,10 @@
 /* eslint-disable react/react-in-jsx-scope */
 import '../assets/Homepage.css';
 
-const Homepage = ({ fields }) => {
+const Homepage = (props) => {
+  const { fields, sitecoreContext } = props;
+  const defaultLanguage = sitecoreContext.route.itemLanguage;
+  console.log(defaultLanguage);
   return (
     <main role="main" id="mainContent">
       <div className="sr-only page-title-visibly-hidden">
@@ -168,7 +171,9 @@ const Homepage = ({ fields }) => {
                           </div>
                         </div>
                         <div className="cta-wrapper">
-                          <a href={fields.fiCardCtaLink?.value}>{fields.fiCardCtaLabel?.value}</a>
+                          <a href={`/${defaultLanguage}${fields.fiCardCtaLink?.value}`}>
+                            {fields.fiCardCtaLabel?.value}
+                          </a>
                         </div>
                       </div>
 
@@ -340,7 +345,7 @@ const Homepage = ({ fields }) => {
                           </div>
                         </div>
                         <div className="cta-wrapper">
-                          <a href={fields.scanSnapCardCtaLink?.value}>
+                          <a href={`/${defaultLanguage}${fields.scanSnapCardCtaLink?.value}`}>
                             {fields.scanSnapCardCtaLabel?.value}
                           </a>
                         </div>

@@ -1,26 +1,241 @@
-id: product-page
+id: products-page
 fields:
-  pageTitle: All Products
+  pageTitle: 'All Products'
 placeholders:
   jss-main:
     - componentName: DocumentScanner
       fields:
-        sectionHeading: "Browse our complete range of scanners"
-        sectionDescription: "Our cutting-edge technology and innovative design bridge the gap between the physical and digital worlds. Whether a professional RICOH scanner for business or a ScanSnap for personal use, you can be confident you're choosing the best in document scanning."
+        deckHeaderHeading: 'Browse our complete range of scanners'
+        deckHeaderParagraph: 'Our state-of-the-art technology and innovative design help you bridge the physical and digital worlds. Whether it’s a professional RICOH scanner or a ScanSnap for personal use, you can be assured of choosing the best in document scanning.'
+        categoryCards:
+          - fields:
+              title: 'Show RICOH Scanners'
+              summary: 'High-quality document scanners designed for the toughest challenges.'
+              linkLabel: 'Show RICOH Scanners'
+              link: '#'
+          - fields:
+              title: 'ScanSnap Series'
+              summary: 'Intuitive, high-quality scanners for home users and small businesses.'
+              linkLabel: 'Show ScanSnap Scanners'
+              link: '#'
+        filterHeading: 'Filters'
+        filterResetButton: 'Reset All'
+        resultsCount: 'Showing 27 product(s)'
+        searchPlaceholder: 'Search products'
+        filterToggleButton: 'Filters'
+        filterFamilyLegend: 'Family'
+        filterFamilyOptions:
+          - fields:
+              value: 'fi Series'
+          - fields:
+              value: 'ScanSnap Series'
+          - fields:
+              value: 'SP Series'
+        filterTypeLegend: 'Scanner Type'
+        filterTypeOptions:
+          - fields:
+              value: 'Desktop'
+          - fields:
+              value: 'Entry-level'
+          - fields:
+              value: 'Network'
+          - fields:
+              value: 'Personal'
+          - fields:
+              value: 'Production'
+          - fields:
+              value: 'Small Business'
+        filterFeatureLegend: 'Scanner Features'
+        filterFeatureOptions:
+          - fields:
+              value: 'Cloud'
+          - fields:
+              value: 'Compact'
+          - fields:
+              value: 'Double-sided'
+          - fields:
+              value: 'Flatbed'
+          - fields:
+              value: 'Mobile'
+          - fields:
+              value: 'Network Interface'
+          - fields:
+              value: 'NFC Reader'
+          - fields:
+              value: 'Overhead'
+          - fields:
+              value: 'Photo Scanning'
+          - fields:
+              value: 'Receipt Scanning'
+          - fields:
+              value: 'Software Bundle'
+          - fields:
+              value: 'Touch Screen'
+          - fields:
+              value: 'Trade Compliant'
+          - fields:
+              value: 'Wireless'
+        productCards:
+          - fields:
+              title: 'ScanSnap® iX1600'
+              description: 'Versatile scanner compatible with cloud'
+              cta: 'Learn More'
+              srOnly: 'About ScanSnap® iX1600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1600/ricohscansnapcardix1600white1xsmallshadow.jpg?mw=528&hash=B4FF134FCDDFC1567F5092C9B0360B4F'
+          - fields:
+              title: 'ScanSnap® iX1400'
+              description: 'One-touch scanner'
+              cta: 'Learn More'
+              srOnly: 'About ScanSnap® iX1400'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1400/r_ix1400_card.jpg?mw=528&hash=39F6DC0263DC2E42767F44E18DA0E344'
+          - fields:
+              title: 'ScanSnap® iX1300'
+              description: 'Duplex Wi-Fi compact scanner'
+              cta: 'Learn More'
+              srOnly: 'About ScanSnap® iX1300'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix1300/r_ix1300_card.jpg?mw=528&hash=346BD0D2BD6CF1B2A182DE2C9FCC9D80'
+          - fields:
+              title: 'ScanSnap® iX100'
+              description: 'Compact wireless mobile scanner'
+              cta: 'Learn More'
+              srOnly: 'About ScanSnap® iX100'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-ix100/r_ix100_card.jpg?mw=528&hash=91BE3F4FB33271EC4AAD322EB217888D'
+          - fields:
+              title: 'fi-8170'
+              description: 'The new generation of scanning excellence'
+              cta: 'Learn More'
+              srOnly: 'About fi-8170'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8170/r_fi-8170_card.jpg?mw=528&hash=769D3C335F394DD5173D5B56C86F5BB4'
+          - fields:
+              title: 'fi-8270'
+              description: 'The new generation of flatbed scanning excellence'
+              cta: 'Learn More'
+              srOnly: 'About fi-8270'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8270/r_fi-8270_card.jpg?mw=528&hash=D49D4652D979BAB1DDE91E732B924ED8'
+          - fields:
+              title: 'fi-7300NX'
+              description: 'Flexible network scanner with NX Manager'
+              cta: 'Learn More'
+              srOnly: 'About fi-7300NX'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7300nx/r_fi-7300nx_card_1.jpg?mw=528&hash=273B0E70644E21861B87BCE91668B2FB'
+          - fields:
+              title: 'fi-8190'
+              description: 'New generation high-performance ADD scanner'
+              cta: 'Learn More'
+              srOnly: 'About fi-8190'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8190/r_fi-8190_card.jpg?mw=528&hash=A0F95C8246A5A6E65BDD16BA07048EDA'
+          - fields:
+              title: 'fi-8290'
+              description: 'The new generation of flatbed scanning excellence'
+              cta: 'Learn More'
+              srOnly: 'About fi-8290'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8290/ricoh_fi-8290_right_close.png?mw=528&hash=4ABD13F0DA763A380341B68650BBD1CB'
+          - fields:
+              title: 'fi-8150'
+              description: 'ADD scanner for light workloads'
+              cta: 'Learn More'
+              srOnly: 'About fi-8150'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8150/ricoh_fi-8150_front_close.png?mw=528&hash=932F4AFE5EFD85F8D27F8E5532087F96'
+          - fields:
+              title: 'fi-8250'
+              description: 'ADD scanner with flat screen for light workloads'
+              cta: 'Learn More'
+              srOnly: 'About fi-8250'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8250/r_fi-8250_card.jpg?mw=528&hash=8B1AA4F092065118C7F6E653E7AC780C'
+          - fields:
+              title: 'fi-8040'
+              description: 'Simplified collaborative scanning'
+              cta: 'Learn More'
+              srOnly: 'About fi-8040'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8040/fi-8040_card.jpg?mw=528&hash=BB61C2ED733854817D3FB2D715ACDFF9'
+          - fields:
+              title: 'fi-800R'
+              description: 'The most versatile scanner of 2019'
+              cta: 'Learn More'
+              srOnly: 'About fi-800R'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-800r/r_fi-800r_card.jpg?mw=528&hash=DB58593C667D239532FAB26215CE31B3'
+          - fields:
+              title: 'fi-7460'
+              description: 'Essential A3 scanner'
+              cta: 'Learn More'
+              srOnly: 'About fi-7460'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7460/r_fi-7460_card.jpg?mw=528&hash=24FF04DA71FCAAC985F662D316AA76D4'
+          - fields:
+              title: 'fi-7480'
+              description: 'High-performance A3 scanner'
+              cta: 'Learn More'
+              srOnly: 'About fi-7480'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7480/r_fi-7480_card.jpg?mw=528&hash=45A86F3929C4AE0B6CB31938B46C6C2F'
+          - fields:
+              title: 'fi-7600'
+              description: 'Flexible high-volume ADD scanner'
+              cta: 'Learn More'
+              srOnly: 'About fi-7600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7600/r_fi-7600_card.jpg?mw=528&hash=6FB7E7917B0EB3A4B7E27D20C34EF327'
+          - fields:
+              title: 'fi-7700'
+              description: 'Flexible flat ADD scanner for high volume'
+              cta: 'Learn More'
+              srOnly: 'About fi-7700'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7700/r_fi-7700_card.jpg?mw=528&hash=31BC0C5BF678EA3845FA93350D846909'
+          - fields:
+              title: 'fi-7800'
+              description: 'Robust scanner at economical price for support service'
+              cta: 'Learn More'
+              srOnly: 'About fi-7800'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7800/r_fi-7800_card.jpg?mw=528&hash=7CD3BAB3BFAD9B1845DD2AA9EF84346B'
+          - fields:
+              title: 'fi-7900'
+              description: 'Fast, robust scanner for enterprise projects'
+              cta: 'Learn More'
+              srOnly: 'About fi-7900'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-7900/r_fi-7900_card.jpg?mw=528&hash=CC39C71A2C61E28A4011293B228FD369'
+          - fields:
+              title: 'fi-8820'
+              description: 'High-performance production scanner at a competitive price'
+              cta: 'Learn More'
+              srOnly: 'About fi-8820'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8820/fi-8820_card.jpg?mw=528&hash=3551A8314C3284A547108F0DD7EE3488'
+          - fields:
+              title: 'fi-8930'
+              description: 'Fast and robust scanner for centralized projects'
+              cta: 'Learn More'
+              srOnly: 'About fi-8930'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8930/fi-8930_card.jpg?mw=528&hash=2335F466F322D392062D606971E58628'
+          - fields:
+              title: 'fi-8950'
+              description: 'The highest performing production scanner for enterprise projects'
+              cta: 'Learn More'
+              srOnly: 'About fi-8950'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-8950/fi-8950_front_close.png?mw=528&hash=64BBF9723453781166448552FD1A4DDC'
+          - fields:
+              title: 'ScanSnap® SV600'
+              description: 'Contactless large-format scanner'
+              cta: 'Learn More'
+              srOnly: 'About ScanSnap® SV600'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/scansnap-sv600/r_sv600_card.jpg?mw=528&hash=2F0F359971A98C0A8F5B8386239E0D36'
+          - fields:
+              title: 'fi-70F'
+              description: 'The new generation of scanning excellence'
+              cta: 'Learn More'
+              srOnly: 'About fi-70F'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/fi-70f/fi-70f_card.jpg?mw=528&hash=9FDA7AF69A5848EFA188B6E31C0D72AF'
+          - fields:
+              title: 'N7100E'
+              description: 'Compact standalone network scanner'
+              cta: 'Learn More'
+              srOnly: 'About N7100E'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/n7100e/r_n7100e_card.jpg?mw=528&hash=C40AF9ECCFFC9DF78B9F3572D959DA41'
+          - fields:
+              title: 'SP-1120N'
+              description: 'Affordable TWAIN and ISIS network scanner'
+              cta: 'Learn More'
+              srOnly: 'About SP-1120N'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/sp-1120n/r_sp-1120n_card.jpg?mw=528&hash=50D03E3467A6438BEC4109B760D3BB72'
+          - fields:
+              title: 'SP-1130N'
+              description: 'Affordable TWAIN and ISIS network scanner'
+              cta: 'Learn More'
+              srOnly: 'About SP-1130N'
+              imageUrl: 'https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/products/sp-1130n/r_sp-1130n_card.jpg?mw=528&hash=AA044D9713D2CBA165A32CD95C76B808'
 
-        cardRICOHTitle: "View RICOH Scanners"
-        cardRICOHSummary: "Enterprise-class document scanners designed for the toughest challenges."
-        cardRICOHButton: "View RICOH Scanners"
-
-        cardScanSnapTitle: "ScanSnap Series"
-        cardScanSnapSummary: "Intuitive, high-quality scanners for home users and small businesses."
-        cardScanSnapButton: "View ScanSnap Scanners"
-
-        filtersHeading: "Filters"
-        resetAllButton: "Reset All"
-        showingXProductsLabel: "Showing {0} product(s)"
-        searchPlaceholder: "Search Products"
-
-        familyLegend: "Family"
-        typeLegend: "Scanner Type"
-        featuresLegend: "Scanner Features"

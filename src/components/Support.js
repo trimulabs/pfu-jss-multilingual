@@ -1,4 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
+import { Text, Link } from '@sitecore-jss/sitecore-jss-react';
 import '../assets/Support.css';
 
 const Support = ({ fields }) => {
@@ -6,7 +7,9 @@ const Support = ({ fields }) => {
     <main role="main" id="mainContent">
       <a id="top" className="anchor" />
       <div className="sr-only page-title-visibly-hidden">
-        <h1>Ricoh Scanner Support - Scanner &amp; ScanSnap Support &amp; Customer Service</h1>
+        <h1>
+          <Text field={fields.pageTitle} />
+        </h1>
       </div>
       <section
         className="callout-deck background-color-off-white alignment-center mb-0 icon-grid theme-primary"
@@ -16,10 +19,11 @@ const Support = ({ fields }) => {
           <a name="support-resources-are-within-reach" className="anchor" />
           <div className="deck-header">
             <div className="deck-header-body">
-              <h2 className>Support Resources Are Within Reach</h2>
+              <h2>
+                <Text field={fields.calloutDeckHeading} />
+              </h2>
               <h3 className="h3">
-                Find everything you need—from installation guides to technical data—in the links
-                below.
+                <Text field={fields.calloutDeckSubheading} />
               </h3>
             </div>
           </div>
@@ -41,17 +45,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Warranties, Manuals &amp; Datasheets</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard1Title} />
+                    </h3>
                     <div className="card-text-container">
                       <p className="card-summary">
-                        Learn about your product&apos;s warranty in Canada.
+                        <Text field={fields.supportCard1Summary} />
                       </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a className="cta" href="/en/support/warranties-manuals-datasheets">
-                      View All
-                    </a>
+                    <Link field={fields.supportCard1Link}>
+                      <Text field={fields.supportCard1LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -73,15 +79,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Drivers &amp; Downloads</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard2Title} />
+                    </h3>
                     <div className="card-text-container">
-                      <p className="card-summary">Quickly find drivers and downloads.</p>
+                      <p className="card-summary">
+                        <Text field={fields.supportCard2Summary} />
+                      </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a className="cta" href="/en/support/drivers-software-downloads">
-                      View All
-                    </a>
+                    <Link field={fields.supportCard2Link}>
+                      <Text field={fields.supportCard2LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -103,17 +113,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Service Programs</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard3Title} />
+                    </h3>
                     <div className="card-text-container">
                       <p className="card-summary">
-                        Choose the right program at the right price for your business.
+                        <Text field={fields.supportCard3Summary} />
                       </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a className="cta" href="/en/services">
-                      View All
-                    </a>
+                    <Link field={fields.supportCard3Link}>
+                      <Text field={fields.supportCard3LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -135,15 +147,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Consumables</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard4Title} />
+                    </h3>
                     <div className="card-text-container">
-                      <p className="card-summary">Find part numbers for consumables.</p>
+                      <p className="card-summary">
+                        <Text field={fields.supportCard4Summary} />
+                      </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a className="cta" href="/en/support/replacement-parts">
-                      View All
-                    </a>
+                    <Link field={fields.supportCard4Link}>
+                      <Text field={fields.supportCard4LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -165,20 +181,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Product Registration</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard5Title} />
+                    </h3>
                     <div className="card-text-container">
-                      <p className="card-summary">Register your scanner.</p>
+                      <p className="card-summary">
+                        <Text field={fields.supportCard5Summary} />
+                      </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a
-                      className="cta"
-                      rel="noopener noreferrer"
-                      href="https://www.paiservicedesk.com/pfu?id=f_sc_cat_item&sys_id=638b965d1be144d0fd7abbfccd4bcb8b"
-                      target="_blank"
-                    >
-                      View All
-                    </a>
+                    <Link field={fields.supportCard5Link}>
+                      <Text field={fields.supportCard5LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -200,17 +215,19 @@ const Support = ({ fields }) => {
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Discontinued Scanners</h3>
+                    <h3 className="card-title">
+                      <Text field={fields.supportCard6Title} />
+                    </h3>
                     <div className="card-text-container">
                       <p className="card-summary">
-                        Find the replacement model for your discontinued scanner.
+                        <Text field={fields.supportCard6Summary} />
                       </p>
                     </div>
                   </div>
                   <div className="card-link">
-                    <a className="cta" href="/en/scanners/discontinued">
-                      View All
-                    </a>
+                    <Link field={fields.supportCard6Link}>
+                      <Text field={fields.supportCard6LinkLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -225,7 +242,9 @@ const Support = ({ fields }) => {
               <a name="contact-information" className="anchor" />
               <div className="deck-header">
                 <div className="deck-header-body">
-                  <h2 className>Contact Information</h2>
+                  <h2>
+                    <Text field={fields.contactHeading} />
+                  </h2>
                 </div>
               </div>
             </div>
@@ -234,21 +253,25 @@ const Support = ({ fields }) => {
             <div className="card-col card-container contact-card-container">
               <div className="card contact-card">
                 <div className="card-body">
-                  <h3>Technical Support for all Products &amp; Services</h3>
+                  <h3>
+                    <Text field={fields.contact1Title} />
+                  </h3>
                   <div>
                     <ul>
                       <li className="phone">
-                        <a href="tel:+18553051515">855.305.1515</a>
+                        <Link field={fields.contact1PhoneLink}>
+                          <Text field={fields.contact1Phone} />
+                        </Link>
                       </li>
                       <li className="email">
-                        <a href="mailto:TSUPPORT@pfu-ca.ricoh.com ">
-                          TSUPPORT@pfu-ca.ricoh.com&nbsp;
-                        </a>
+                        <Link field={fields.contact1EmailLink}>
+                          <Text field={fields.contact1Email} />
+                        </Link>
                       </li>
                       <li className="link">
-                        <a href="/en/support/replacement-parts" target="|Custom">
-                          Find Consumables (Rollers, etc)
-                        </a>
+                        <Link field={fields.contact1ExtraLink}>
+                          <Text field={fields.contact1ExtraLinkLabel} />
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -258,14 +281,20 @@ const Support = ({ fields }) => {
             <div className="card-col card-container contact-card-container">
               <div className="card contact-card">
                 <div className="card-body">
-                  <h3>Scanner &amp; Software Sales&nbsp;</h3>
+                  <h3>
+                    <Text field={fields.contact2Title} />
+                  </h3>
                   <div>
                     <ul>
                       <li className="phone">
-                        <a href="tel:+18002638716">800.263.8716</a>
+                        <Link field={fields.contact2PhoneLink}>
+                          <Text field={fields.contact2Phone} />
+                        </Link>
                       </li>
                       <li className="email">
-                        <a href="mailto:sales@pfu-ca.ricoh.com">sales@pfu-ca.ricoh.com</a>
+                        <Link field={fields.contact2EmailLink}>
+                          <Text field={fields.contact2Email} />
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -275,14 +304,20 @@ const Support = ({ fields }) => {
             <div className="card-col card-container contact-card-container">
               <div className="card contact-card">
                 <div className="card-body">
-                  <h3>Service Sales &amp; Contract Support</h3>
+                  <h3>
+                    <Text field={fields.contact3Title} />
+                  </h3>
                   <div>
                     <ul>
                       <li className="phone">
-                        <a href="tel:+18002638716">800.263.8716</a>
+                        <Link field={fields.contact3PhoneLink}>
+                          <Text field={fields.contact3Phone} />
+                        </Link>
                       </li>
                       <li className="email">
-                        <a href="mailto:Service@pfu-ca.ricoh.com">Service@pfu-ca.ricoh.com</a>
+                        <Link field={fields.contact3EmailLink}>
+                          <Text field={fields.contact3Email} />
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -298,11 +333,11 @@ const Support = ({ fields }) => {
             <div className="col">
               <div className="deck-header">
                 <a name="find-the-right-service-program-for-you" className="anchor" />
-                <h2 className>Find the right Service Program for you.</h2>
+                <h2>
+                  <Text field={fields.serviceDeckHeading} />
+                </h2>
                 <p>
-                  We offer several levels of Service Programs allowing you to choose the right
-                  program at the right price for your business. Our highly experienced service team
-                  will ensure your scanning projects stay on track. Review our service guide below.
+                  <Text field={fields.serviceDeckParagraph} />
                 </p>
                 <p>
                   <br />
@@ -314,7 +349,7 @@ const Support = ({ fields }) => {
             <div className="service-deck-col">
               <div className="card with-link">
                 <div className="card-img-top">
-                  <a href="/en/services/advance-exchange">
+                  <Link field={fields.service1LearnMoreLink}>
                     <div className="img-container">
                       <img
                         src="https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-advance-exchange.jpg?h=864&iar=0&w=1472&hash=DD0C4B0AC019768579AA25CB21AD5068"
@@ -323,37 +358,39 @@ const Support = ({ fields }) => {
                         height={864}
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Advance Exchange</h3>
-                    <h4>Priority Replacement</h4>
+                    <h3 className="card-title">
+                      <Text field={fields.service1Title} />
+                    </h3>
+                    <h4>
+                      <Text field={fields.service1SubTitle} />
+                    </h4>
                     <div className="body-wrapper">
                       <p>
-                        Keep downtime to a minimum with our simple, economical alternative for
-                        lightweight scanners: priority access to the service centre and as early as
-                        overnight scanner replacement.
+                        <Text field={fields.service1Description} />
                       </p>
                     </div>
                   </div>
                   <div className="cta-wrapper">
-                    <a
-                      href="/en/services/advance-exchange"
+                    <Link
+                      field={fields.service1LearnMoreLink}
                       className="btn btn-primary"
-                      title="Learn More About Advance Exchange"
+                      title={fields.service1LearnMoreLabel.value}
                     >
-                      Learn More
-                    </a>
-                    <a
+                      <Text field={fields.service1LearnMoreLabel} />
+                    </Link>
+                    <Link
+                      field={fields.service1BuyServiceLink}
                       className="cta"
                       rel="noopener noreferrer"
-                      title="Buy Advanced Exchange Service"
-                      href="https://pciscannerstore.ca/service-programs/"
                       target="_blank"
+                      title={fields.service1BuyServiceLabel.value}
                     >
-                      Buy Service
-                    </a>
+                      <Text field={fields.service1BuyServiceLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -361,7 +398,7 @@ const Support = ({ fields }) => {
             <div className="service-deck-col">
               <div className="card with-link">
                 <div className="card-img-top">
-                  <a href="/en/services/depot">
+                  <Link field={fields.service2LearnMoreLink}>
                     <div className="img-container">
                       <img
                         src="https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-depot-mail-in-service.jpg?h=864&iar=0&w=1472&hash=FF18A7E306CCD661833A855EF96AD026"
@@ -370,37 +407,39 @@ const Support = ({ fields }) => {
                         height={864}
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">Depot Ship-in Service</h3>
-                    <h4>Ship-in Service</h4>
+                    <h3 className="card-title">
+                      <Text field={fields.service2Title} />
+                    </h3>
+                    <h4>
+                      <Text field={fields.service2SubTitle} />
+                    </h4>
                     <div className="body-wrapper">
                       <p>
-                        Ideal for customers with asset tag retention, for those who run IT
-                        organizations or for people who just want to retain their own original unit,
-                        this unit replacement alternative lets you send your scanners in for repair.
+                        <Text field={fields.service2Description} />
                       </p>
                     </div>
                   </div>
                   <div className="cta-wrapper">
-                    <a
-                      href="/en/services/depot"
+                    <Link
+                      field={fields.service2LearnMoreLink}
                       className="btn btn-primary"
-                      title="Learn More About Depot Ship-in Service"
+                      title={fields.service2LearnMoreLabel.value}
                     >
-                      Learn More
-                    </a>
-                    <a
+                      <Text field={fields.service2LearnMoreLabel} />
+                    </Link>
+                    <Link
+                      field={fields.service2BuyServiceLink}
                       className="cta"
                       rel="noopener noreferrer"
-                      title="Buy Depot Service"
-                      href="https://pciscannerstore.ca/service-programs/"
                       target="_blank"
+                      title={fields.service2BuyServiceLabel.value}
                     >
-                      Buy Service
-                    </a>
+                      <Text field={fields.service2BuyServiceLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -408,7 +447,7 @@ const Support = ({ fields }) => {
             <div className="service-deck-col">
               <div className="card with-link">
                 <div className="card-img-top">
-                  <a href="/en/services/on-site">
+                  <Link field={fields.service3LearnMoreLink}>
                     <div className="img-container">
                       <img
                         src="https://www.pfu-ca.ricoh.com/-/media/project/scanners-pci/services/card-images/service-basic-onsite-service.jpg?h=864&iar=0&w=1472&hash=5F8CC755891DBF2813E05A52C160605B"
@@ -417,53 +456,39 @@ const Support = ({ fields }) => {
                         height={864}
                       />
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card-body">
                   <div className="card-content">
-                    <h3 className="card-title">On-site Service</h3>
-                    <h4>Priority On-Site Service &amp; Optional Maintenance</h4>
+                    <h3 className="card-title">
+                      <Text field={fields.service3Title} />
+                    </h3>
+                    <h4>
+                      <Text field={fields.service3SubTitle} />
+                    </h4>
                     <div className="body-wrapper">
                       <p>
-                        Ideal for large scanners, our on-site service program provides on-site
-                        service to protect your investment so you can enjoy peace of mind.
-                        Additionally, you can add on to your regularly performed Operator
-                        Maintenance by purchasing additional PFU Certified Preventative Maintenance
-                        visits by our certified professionals.
+                        <Text field={fields.service3Description} />
                       </p>
-                      <span
-                        style={{
-                          fontSize: '11pt',
-                          backgroundImage: 'initial',
-                          backgroundPosition: 'initial',
-                          backgroundSize: 'initial',
-                          backgroundRepeat: 'initial',
-                          backgroundAttachment: 'initial',
-                          backgroundOrigin: 'initial',
-                          backgroundClip: 'initial',
-                          fontFamily: 'Arial, sans-serif',
-                          color: '#6d6d69',
-                        }}
-                      />
                     </div>
                   </div>
                   <div className="cta-wrapper">
-                    <a
-                      href="/en/services/on-site"
+                    <Link
+                      field={fields.service3LearnMoreLink}
                       className="btn btn-primary"
-                      title="Learn More About On-site Service"
+                      title={fields.service3LearnMoreLabel.value}
                     >
-                      Learn More
-                    </a>
-                    <a
+                      <Text field={fields.service3LearnMoreLabel} />
+                    </Link>
+                    <Link
+                      field={fields.service3BuyServiceLink}
                       className="cta"
                       rel="noopener noreferrer"
-                      title="Buy Basic Onsite Service"
-                      href="https://pciscannerstore.ca/service-programs/"
                       target="_blank"
+                      title={fields.service3BuyServiceLabel.value}
                     >
-                      Buy Service
-                    </a>
+                      <Text field={fields.service3BuyServiceLabel} />
+                    </Link>
                   </div>
                 </div>
               </div>

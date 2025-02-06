@@ -1,3 +1,66 @@
 id: scanners-fi-page
 fields:
-  pageTitle: Scanners
+  pageTitle: 'Ricoh Scanners'
+placeholders:
+  jss-main:
+    - componentName: ScannersFi
+      fields:
+        heroHeading: 'Innovation across every industry'
+        heroBody: "Ricoh document scanners handle the world's toughest imaging challenges."
+        heroCtaLabel: 'Browse All Scanners'
+        heroCtaLink: '#'
+        heroProducts:
+          - fields:
+              value: 'fi-800R'
+          - fields:
+              value: 'fi-7300NX'
+          - fields:
+              value: 'fi-8170'
+          - fields:
+              value: 'fi-7600'
+        promo1Title: 'fi-8170'
+        promo1Heading: 'The next generation in scanning excellence'
+        promo1Body: "Equipped to enhance your organization's current document digitization workflows."
+        promo1CtaLabel: 'View Product'
+        promo1CtaLink: '#'
+        promo2Title: 'fi-7300NX'
+        promo2Heading: 'A network scanner with limitless possibilities'
+        promo2Body: 'Ideal for distributed capture, the fi-7300NX is network-enabled and has Wi-Fi connectivity.'
+        promo2CtaLabel: 'View Product'
+        promo2CtaLink: '#'
+        promo3Title: 'fi-800R'
+        promo3Heading: 'A powerful scanner with a small footprint'
+        promo3Body: 'With an innovative front feeder and U-turn ADF, this scanner is a customer-service powerhouse.'
+        promo3CtaLabel: 'View Product'
+        promo3CtaLink: '#'
+        promoCard1Title: 'Entry-Level Scanners'
+        promoCard1Summary: 'Dependable and affordable scanning solutions with essential features for simple operation.'
+        promoCard1CtaLabel: 'Browse Entry Level Scanners'
+        promoCard1Link: '#'
+        promoCard2Title: 'Desktop Scanners'
+        promoCard2Summary: 'fi Series desktop scanners are the ideal companions for all your office needs.'
+        promoCard2CtaLabel: 'Browse Desktop Scanners'
+        promoCard2Link: '#'
+        promoCard3Title: 'Production Scanners'
+        promoCard3Summary: 'fi Series production scanners offer extremely high throughput, flexibility and reliability.'
+        promoCard3CtaLabel: 'Browse Production Scanners'
+        promoCard3Link: '#'
+        promoCard4Title: 'Network Scanners'
+        promoCard4Summary: 'fi Series network scanners allow multiple users to scan to unique destinations — to the network or the cloud.'
+        promoCard4CtaLabel: 'Browse Network Scanners'
+        promoCard4Link: '#'
+        featuredPromo1Title: 'fi-7300NX'
+        featuredPromo1Description: 'Optimize your office space and place this Wi-Fi, cloud-enabled scanner anywhere without USB cable limitations.'
+        featuredPromo1CtaLabel: 'View Product'
+        featuredPromo1Link: '#'
+        featuredPromo2Title: 'PaperStream NX Manager'
+        featuredPromo2Heading: 'Scan, integrate and manage document processes with this powerful server software.'
+        featuredPromo2CtaLabel: 'Learn More'
+        featuredPromo2Link: '#'
+        softwareGridHeading: 'Maximize imaging solutions with PaperStream'
+        softwareGridSubheading: 'Highly evolved and intuitive software that improves efficiencies and reduces costs.'
+        softwareItemTitle: 'Scanner Central Admin'
+        softwareItemDescription: 'Manage a fleet of scanners and software updates through this convenient and cost saving administrative application.'
+        softwareItemCtaLabel: 'Learn More'
+        softwareItemLink: '#'
+
